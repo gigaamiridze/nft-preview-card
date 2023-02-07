@@ -1,0 +1,11 @@
+.card {
+  max-width: 300px;
+  width: 100%;
+  height: 500px;
+  background-color: var(--darkBlueCardBG);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

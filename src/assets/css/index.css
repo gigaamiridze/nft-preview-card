@@ -1,0 +1,33 @@
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+/* Color Variables */
+:root {
+  /* Primary */
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --cyanHover: hsl(178, 100%, 50%, 0.5);
+
+  /* Neutral */
+  --darkBlueMainBG: hsl(217, 54%, 11%);
+  --darkBlueCardBG: hsl(216, 50%, 16%);
+  --darkBlueLine: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  height: 100vh;
+  background-color: var(--darkBlueMainBG);
+}
+
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
